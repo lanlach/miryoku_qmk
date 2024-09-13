@@ -1,0 +1,14 @@
+# Copyright 2021 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+name: 'build-3x5dual_wyld_track'
+on:
+  - workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    with:
+      keyboard: '["handwired/wylderbuilds/trackball/3x5_dual_wyld_track"]'
+      alphas: '["colemakdhk"]'
+      nav: '["invertedt"]'
+      layers: '["flip"]'
