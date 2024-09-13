@@ -1,0 +1,22 @@
+# Board, Bootloader and MCU
+MCU = RP2040
+SPLIT_KEYBOARD = yes
+BOOTLOADER = rp2040
+SERIAL_DRIVER = vendor
+MOUSEKEY_ENABLE = yes
+#CONSOLE_ENABLE = yes
+#COMMAND_ENABLE = yes
+
+RGBLIGHT_ENABLE = no
+#WS2812_DRIVER = vendor
+#SLEEP_LED_ENABLE = no
+
+ENCODER_ENABLE = no
+ENCODER_MAP_ENABLE = no
+
+OLED_ENABLE = no
+#OLED_DRIVER = ssd1306
+WPM_ENABLE = no
+EXTRAKEY_ENABLE = no       # Audio control and System control
+
+#OPT_DEFS += -DHAL_USE_I2C=TRUE

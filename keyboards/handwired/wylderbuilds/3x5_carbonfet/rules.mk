@@ -1,0 +1,17 @@
+# MCU name
+SERIAL_DRIVER = vendor
+#MOUSEKEY_ENABLE = yes
+#CONSOLE_ENABLE = no
+#COMMAND_ENABLE = yes
+#BOOTMAGIC_ENABLE = yes
+OLED_ENABLE = no
+WPM_ENABLE = no
+# AUDIO_ENABLE = yes          # Audio output
+
+#RGB_MATRIX_ENABLE = no     # Enable WS2812 RGB matrix
+#RGB_MATRIX_DRIVER = WS2812
+
+#RGBLIGHT_SUPPORTED = yes
+#RGB_MATRIX_SUPPORTED = yes
+
+#LAYOUTS = split_3x5_3

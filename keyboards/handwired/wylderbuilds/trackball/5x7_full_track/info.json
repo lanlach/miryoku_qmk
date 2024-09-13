@@ -1,0 +1,563 @@
+{
+  "keyboard_name": "Dactyl-Manuform Wyld Trackball (5x7_full_track)",
+  "manufacturer": "wylderbuilds",
+  "url": "https://wylderbuilds.com",
+  "maintainer": "qmk",
+  "bootloader": "rp2040",
+  "processor": "RP2040",
+  "usb": {
+    "vid": "0x9953",
+    "pid": "0x0103",
+    "device_version": "0.0.1"
+  },
+  "width": 18,
+  "height": 8,
+  "matrix": {
+    "rows": 12,
+    "cols": 7
+  },
+  "ws2812": {
+    "pin": "GP28",
+    "driver": "vendor"
+  },
+  "features": {
+    "bootmagic": true,
+    "command": false,
+    "extrakey": true,
+    "mousekey": true,
+    "nkro": true,
+    "rgb_matrix": true,
+    "encoder": true
+  },
+  "matrix_size": {
+    "cols": 7,
+    "rows": 12
+  },
+  "rgb_matrix": {
+    "driver": "ws2812",
+    "max_brightness": 120,
+    "animations": {
+      "alpha_mods": true,
+      "breathing": true,
+      "colorband_pinwheel_sat": true,
+      "colorband_pinwheel_val": true,
+      "colorband_sat": true,
+      "colorband_spiral_sat": true,
+      "colorband_spiral_val": true,
+      "colorband_val": true,
+      "cycle_all": true,
+      "cycle_left_right": true,
+      "cycle_out_in": true,
+      "cycle_out_in_dual": true,
+      "cycle_pinwheel": true,
+      "cycle_spiral": true,
+      "cycle_up_down": true,
+      "digital_rain": true,
+      "dual_beacon": true,
+      "gradient_left_right": true,
+      "gradient_up_down": true,
+      "hue_breathing": true,
+      "hue_pendulum": true,
+      "hue_wave": true,
+      "jellybean_raindrops": true,
+      "pixel_flow": true,
+      "pixel_fractal": true,
+      "pixel_rain": true,
+      "rainbow_beacon": true,
+      "rainbow_moving_chevron": true,
+      "rainbow_pinwheels": true,
+      "raindrops": true,
+      "solid_color": true,
+      "solid_reactive": true,
+      "solid_reactive_cross": true,
+      "solid_reactive_nexus": true,
+      "solid_reactive_simple": true,
+      "solid_reactive_wide": true,
+      "solid_splash": true,
+      "splash": true,
+      "typing_heatmap": true
+    },
+    "split_count": [
+      38,
+      36
+    ],
+    "layout": [
+      {"flags": 4, "matrix": [0, 0], "x": 0, "y": 3},
+      {"flags": 4, "matrix": [1, 0], "x": 0, "y": 15},
+      {"flags": 4, "matrix": [2, 0], "x": 0, "y": 26},
+      {"flags": 4, "matrix": [3, 0], "x": 0, "y": 38},
+      {"flags": 4, "matrix": [4, 0], "x": 0, "y": 49},
+
+      {"flags": 4, "matrix": [0, 1], "x": 12, "y": 3},
+      {"flags": 4, "matrix": [1, 1], "x": 12, "y": 15},
+      {"flags": 4, "matrix": [2, 1], "x": 12, "y": 26},
+      {"flags": 4, "matrix": [3, 1], "x": 12, "y": 38},
+      {"flags": 4, "matrix": [4, 1], "x": 12, "y": 49},
+
+      {"flags": 4, "matrix": [0, 2], "x": 24, "y": 3},
+      {"flags": 4, "matrix": [1, 2], "x": 24, "y": 15},
+      {"flags": 4, "matrix": [2, 2], "x": 24, "y": 26},
+      {"flags": 4, "matrix": [3, 2], "x": 24, "y": 38},
+      {"flags": 4, "matrix": [4, 2], "x": 24, "y": 49},
+
+      {"flags": 4, "matrix": [0, 3], "x": 35, "y": 0},
+      {"flags": 4, "matrix": [1, 3], "x": 35, "y": 9},
+      {"flags": 4, "matrix": [2, 3], "x": 35, "y": 20},
+      {"flags": 4, "matrix": [3, 3], "x": 35, "y": 32},
+      {"flags": 4, "matrix": [4, 3], "x": 35, "y": 44},
+
+      {"flags": 4, "matrix": [0, 4], "x": 47, "y": 0},
+      {"flags": 4, "matrix": [1, 4], "x": 47, "y": 9},
+      {"flags": 4, "matrix": [2, 4], "x": 47, "y": 20},
+      {"flags": 4, "matrix": [3, 4], "x": 47, "y": 32},
+      {"flags": 4, "matrix": [4, 4], "x": 47, "y": 44},
+
+      {"flags": 4, "matrix": [0, 5], "x": 59, "y": 0},
+      {"flags": 4, "matrix": [1, 5], "x": 59, "y": 9},
+      {"flags": 4, "matrix": [2, 5], "x": 59, "y": 20},
+      {"flags": 4, "matrix": [3, 5], "x": 59, "y": 32},
+
+      {"flags": 4, "matrix": [0, 6], "x": 71, "y": 0},
+      {"flags": 4, "matrix": [1, 6], "x": 71, "y": 9},
+      {"flags": 4, "matrix": [2, 6], "x": 71, "y": 20},
+      {"flags": 4, "matrix": [3, 6], "x": 71, "y": 32},
+
+      {"flags": 4, "matrix": [5, 4], "x": 71, "y": 47},
+      {"flags": 4, "matrix": [5, 5], "x": 83, "y": 47},
+      {"flags": 4, "matrix": [5, 6], "x": 94, "y": 47},
+      {"flags": 4, "matrix": [5, 3], "x": 83, "y": 65},
+      {"flags": 4, "matrix": [5, 2], "x": 94, "y": 65},
+
+      {"flags": 4, "matrix": [6, 0], "x": 130, "y": 0},
+      {"flags": 4, "matrix": [7, 0], "x": 130, "y": 9},
+      {"flags": 4, "matrix": [8, 0], "x": 130, "y": 20},
+      {"flags": 4, "matrix": [9, 0], "x": 130, "y": 32},
+
+      {"flags": 4, "matrix": [6, 1], "x": 141, "y": 0},
+      {"flags": 4, "matrix": [7, 1], "x": 141, "y": 9},
+      {"flags": 4, "matrix": [8, 1], "x": 141, "y": 20},
+      {"flags": 4, "matrix": [9, 1], "x": 141, "y": 32},
+
+      {"flags": 4, "matrix": [6, 2], "x": 153, "y": 0},
+      {"flags": 4, "matrix": [7, 2], "x": 153, "y": 9},
+      {"flags": 4, "matrix": [8, 2], "x": 153, "y": 20},
+      {"flags": 4, "matrix": [9, 2], "x": 153, "y": 32},
+      {"flags": 4, "matrix": [10, 2], "x": 153, "y": 44},
+
+      {"flags": 4, "matrix": [6, 3], "x": 165, "y": 0},
+      {"flags": 4, "matrix": [7, 3], "x": 165, "y": 9},
+      {"flags": 4, "matrix": [8, 3], "x": 165, "y": 20},
+      {"flags": 4, "matrix": [9, 3], "x": 165, "y": 32},
+      {"flags": 4, "matrix": [10, 3], "x": 165, "y": 44},
+
+      {"flags": 4, "matrix": [6, 4], "x": 177, "y": 3},
+      {"flags": 4, "matrix": [7, 4], "x": 177, "y": 15},
+      {"flags": 4, "matrix": [8, 4], "x": 177, "y": 26},
+      {"flags": 4, "matrix": [9, 4], "x": 177, "y": 38},
+      {"flags": 4, "matrix": [10, 4], "x": 177, "y": 49},
+
+      {"flags": 4, "matrix": [6, 5], "x": 189, "y": 3},
+      {"flags": 4, "matrix": [7, 5], "x": 189, "y": 15},
+      {"flags": 4, "matrix": [8, 5], "x": 189, "y": 26},
+      {"flags": 4, "matrix": [9, 5], "x": 189, "y": 38},
+      {"flags": 4, "matrix": [10, 5], "x": 189, "y": 49},
+
+      {"flags": 4, "matrix": [6, 6], "x": 200, "y": 3},
+      {"flags": 4, "matrix": [7, 6], "x": 200, "y": 15},
+      {"flags": 4, "matrix": [8, 6], "x": 200, "y": 26},
+      {"flags": 4, "matrix": [9, 6], "x": 200, "y": 38},
+      {"flags": 4, "matrix": [10, 6], "x": 200, "y": 49},
+
+      {"flags": 4, "matrix": [11, 2], "x": 130, "y": 70},
+      {"flags": 4, "matrix": [11, 1], "x": 118, "y": 70},
+      {"flags": 4, "matrix": [11, 0], "x": 106, "y": 70}
+    ]
+  },
+  "layouts": {
+    "LAYOUT_5x7": {
+      "layout": [
+        {
+          "label": "0,3",
+          "x": 3,
+          "y": 0
+        },
+        {
+          "label": "0,4",
+          "x": 4,
+          "y": 0
+        },
+        {
+          "label": "0,5",
+          "x": 5,
+          "y": 0
+        },
+        {
+          "label": "0,6",
+          "x": 6,
+          "y": 0
+        },
+        {
+          "label": "6,0",
+          "x": 11,
+          "y": 0
+        },
+        {
+          "label": "6,1",
+          "x": 12,
+          "y": 0
+        },
+        {
+          "label": "6,2",
+          "x": 13,
+          "y": 0
+        },
+        {
+          "label": "6,3",
+          "x": 14,
+          "y": 0
+        },
+        {
+          "label": "0,0",
+          "x": 0,
+          "y": 0.5
+        },
+        {
+          "label": "0,1",
+          "x": 1,
+          "y": 0.5
+        },
+        {
+          "label": "0,2",
+          "x": 2,
+          "y": 0.5
+        },
+        {
+          "label": "6,4",
+          "x": 15,
+          "y": 0.5
+        },
+        {
+          "label": "6,5",
+          "x": 16,
+          "y": 0.5
+        },
+        {
+          "label": "6,6",
+          "x": 17,
+          "y": 0.5
+        },
+        {
+          "label": "1,3",
+          "x": 3,
+          "y": 1
+        },
+        {
+          "label": "1,4",
+          "x": 4,
+          "y": 1
+        },
+        {
+          "label": "1,5",
+          "x": 5,
+          "y": 1
+        },
+        {
+          "label": "1,6",
+          "x": 6,
+          "y": 1
+        },
+        {
+          "label": "7,0",
+          "x": 11,
+          "y": 1
+        },
+        {
+          "label": "7,1",
+          "x": 12,
+          "y": 1
+        },
+        {
+          "label": "7,2",
+          "x": 13,
+          "y": 1
+        },
+        {
+          "label": "7,3",
+          "x": 14,
+          "y": 1
+        },
+        {
+          "label": "1,0",
+          "x": 0,
+          "y": 1.5
+        },
+        {
+          "label": "1,1",
+          "x": 1,
+          "y": 1.5
+        },
+        {
+          "label": "1,2",
+          "x": 2,
+          "y": 1.5
+        },
+        {
+          "label": "7,4",
+          "x": 15,
+          "y": 1.5
+        },
+        {
+          "label": "7,5",
+          "x": 16,
+          "y": 1.5
+        },
+        {
+          "label": "7,6",
+          "x": 17,
+          "y": 1.5
+        },
+        {
+          "label": "2,3",
+          "x": 3,
+          "y": 2
+        },
+        {
+          "label": "2,4",
+          "x": 4,
+          "y": 2
+        },
+        {
+          "label": "2,5",
+          "x": 5,
+          "y": 2
+        },
+        {
+          "label": "2,6",
+          "x": 6,
+          "y": 2
+        },
+        {
+          "label": "5,1",
+          "x": 7.5,
+          "y": 2
+        },
+        {
+          "label": "11,3",
+          "x": 9.5,
+          "y": 2
+        },
+        {
+          "label": "8,0",
+          "x": 11,
+          "y": 2
+        },
+        {
+          "label": "8,1",
+          "x": 12,
+          "y": 2
+        },
+        {
+          "label": "8,2",
+          "x": 13,
+          "y": 2
+        },
+        {
+          "label": "8,3",
+          "x": 14,
+          "y": 2
+        },
+        {
+          "label": "2,0",
+          "x": 0,
+          "y": 2.5
+        },
+        {
+          "label": "2,1",
+          "x": 1,
+          "y": 2.5
+        },
+        {
+          "label": "2,2",
+          "x": 2,
+          "y": 2.5
+        },
+        {
+          "label": "8,4",
+          "x": 15,
+          "y": 2.5
+        },
+        {
+          "label": "8,5",
+          "x": 16,
+          "y": 2.5
+        },
+        {
+          "label": "8,6",
+          "x": 17,
+          "y": 2.5
+        },
+        {
+          "label": "3,3",
+          "x": 3,
+          "y": 3
+        },
+        {
+          "label": "3,4",
+          "x": 4,
+          "y": 3
+        },
+        {
+          "label": "3,5",
+          "x": 5,
+          "y": 3
+        },
+        {
+          "label": "3,6",
+          "x": 6,
+          "y": 3
+        },
+        {
+          "label": "9,0",
+          "x": 11,
+          "y": 3
+        },
+        {
+          "label": "9,1",
+          "x": 12,
+          "y": 3
+        },
+        {
+          "label": "9,2",
+          "x": 13,
+          "y": 3
+        },
+        {
+          "label": "9,3",
+          "x": 14,
+          "y": 3
+        },
+        {
+          "label": "3,0",
+          "x": 0,
+          "y": 3.5
+        },
+        {
+          "label": "3,1",
+          "x": 1,
+          "y": 3.5
+        },
+        {
+          "label": "3,2",
+          "x": 2,
+          "y": 3.5
+        },
+        {
+          "label": "9,4",
+          "x": 15,
+          "y": 3.5
+        },
+        {
+          "label": "9,5",
+          "x": 16,
+          "y": 3.5
+        },
+        {
+          "label": "9,6",
+          "x": 17,
+          "y": 3.5
+        },
+        {
+          "label": "4,3",
+          "x": 3,
+          "y": 4
+        },
+        {
+          "label": "4,4",
+          "x": 4,
+          "y": 4
+        },
+        {
+          "label": "10,2",
+          "x": 13,
+          "y": 4
+        },
+        {
+          "label": "10,3",
+          "x": 14,
+          "y": 4
+        },
+        {
+          "label": "4,0",
+          "x": 0,
+          "y": 4.5
+        },
+        {
+          "label": "4,1",
+          "x": 1,
+          "y": 4.5
+        },
+        {
+          "label": "4,2",
+          "x": 2,
+          "y": 4.5
+        },
+        {
+          "label": "10,4",
+          "x": 15,
+          "y": 4.5
+        },
+        {
+          "label": "10,5",
+          "x": 16,
+          "y": 4.5
+        },
+        {
+          "label": "10,6",
+          "x": 17,
+          "y": 4.5
+        },
+        {
+          "label": "5,4",
+          "x": 6,
+          "y": 3.5
+        },
+        {
+          "label": "5,5",
+          "x": 7,
+          "y": 3.5
+        },
+        {
+          "label": "5,6",
+          "x": 8,
+          "y": 3.5
+        },
+        {
+          "label": "5,2",
+          "x": 7,
+          "y": 4.75
+        },
+        {
+          "label": "5,3",
+          "x": 8,
+          "y": 4.75
+        },
+        {
+          "label": "11,0",
+          "x": 9,
+          "y": 5.75
+        },
+        {
+          "label": "11,1",
+          "x": 10,
+          "y": 5.75
+        },
+        {
+          "label": "11,2",
+          "x": 11,
+          "y": 5.75
+        }
+      ]
+    }
+  }
+}
+

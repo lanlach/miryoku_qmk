@@ -1,0 +1,17 @@
+SERIAL_DRIVER = vendor
+#MOUSEKEY_ENABLE = yes
+#CONSOLE_ENABLE = no
+#COMMAND_ENABLE = yes
+#BOOTMAGIC_ENABLE = yes
+OLED_ENABLE = yes
+WPM_ENABLE = yes
+EXTRAKEY_ENABLE = yes       # Audio control and System control
+#NKRO_ENABLE = yes           # Enable N-Key Rollover
+#ENCODER_ENABLE = yes
+ENCODER_MAP_ENABLE = yes
+
+#RGBLIGHT_ENABLE = no23
+#WS2812_DRIVER = vendor
+#SLEEP_LED_ENABLE = no
+
+OPT_DEFS += -DHAL_USE_I2C=TRUE
